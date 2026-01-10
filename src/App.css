@@ -35,6 +35,35 @@ ul {
 }
 section {
   margin-bottom: 25px;
+}.socials {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin: 10px 0 20px;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.social-link svg {
+  width: 20px;
+  height: 20px;
+  fill: #111;
 }
 
 
